@@ -1,0 +1,26 @@
+{
+  "inspired_by": "superset-sh/superset",
+  "project_name": "Superset — AI Agent IDE",
+  "description": "Browser-based TUI demo of a parallel Claude Code session manager with git-worktree isolation. Spawn multiple agents on independent tasks, watch live tool-call output per agent, kill or clear finished sessions.",
+  "tech_stack": [
+    "Vite",
+    "React",
+    "TypeScript"
+  ],
+  "build_date": "2026-04-06",
+  "build_time_hours": 1,
+  "status": "complete",
+  "features": [
+    "Terminal-aesthetic TUI layout (sidebar + output pane + status bar)",
+    "Spawn agents with custom tasks or random demo tasks",
+    "Live tool-call output stream per agent (Read, Edit, Bash, Glob, Grep simulation)",
+    "Status indicators: spawning / active / idle / done / error",
+    "Elapsed time, token count, tool call count per session",
+    "Kill running agents or clear completed/errored sessions (K key)",
+    "Keyboard navigation (N new, K kill/clear, ↑↓ navigate)",
+    "JetBrains Mono font, GitHub Dark color palette",
+    "Auto-scroll to latest output per session"
+  ],
+  "live_url": "https://mvp.trollefsen.com/2026-04-06-superset/",
+  "github_url": null
+}
